@@ -8,10 +8,11 @@
     justify-content: space-between;
 }
 
-.banner-title h1{
-    color: blueviolet;
+.banner-title h1 img{
+    width: 250px;height: 50px;
+    /* color: blueviolet;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: bold; */
 
 }
 .banner-description{
@@ -31,6 +32,9 @@
     width: 180px; height:50px;
     margin-top: 15px;
     border: none;
+}
+.btn-primary:hover{
+    background-color: orange;
 }
 
 /* action section styles */
@@ -62,6 +66,9 @@
     border-radius: 5px;
     width: 235px; height:50px;
     border: none;
+}
+.btn-primary-1:hover{
+    background-color: orange;
 }
 
 .action-img{
@@ -238,7 +245,14 @@ footer{
 }
 nav ul li a{
     text-decoration: none;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 5px;
 }
+nav ul li a:hover{
+    background-color: chocolate;
+}
+
 nav ul{
     display: flex;
     justify-content: space-around;
